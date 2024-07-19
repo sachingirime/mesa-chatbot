@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sticky Chatbot</title>
+    <title>Full-Page Chatbot</title>
     <style>
-        .sticky-chatbot {
+        .full-page-chatbot {
             position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
             z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
 <body>
 
-<div class="sticky-chatbot">
+<div class="full-page-chatbot">
     <script async data-id="5976714137" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
 </div>
 
